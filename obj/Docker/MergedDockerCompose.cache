@@ -1,0 +1,11 @@
+services:
+  webapp:
+    build:
+      context: D:\pcn
+      dockerfile: WebApp/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: webapp
+    ports:
+    - 80/tcp
+version: '3.0'
