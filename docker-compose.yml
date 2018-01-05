@@ -2,7 +2,7 @@ version: '3'
 
 services:
   webapp:
-    image: webapp
+    image: webapp:0.0.1
     build:
       context: .
       dockerfile: WebApp/Dockerfile
