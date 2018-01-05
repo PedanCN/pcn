@@ -13,7 +13,7 @@ namespace WebApp.Controllers
         [HttpGet]
         public string Get()
         {
-            return "你们好，这是自动构建的任务,就是那么溜哇，你们说有木有";
+            return "你们好，这是自动构建的任务";
         }
 
         // GET api/values/5
