@@ -11,9 +11,9 @@ namespace WebApp.Controllers
     {
         // GET api/values
         [HttpGet]
-        public string Get()
+        public IEnumerable<string> Get()
         {
-            return "你好,自动构建就是那么简单";
+            return new string[]{"参数一","参数二"};
         }
 
         // GET api/values/5
