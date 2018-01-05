@@ -5,7 +5,7 @@
     <DockerTargetOS>Linux</DockerTargetOS>
     <ProjectGuid>0ed04be5-534c-4682-bc76-58fbdf17f3e1</ProjectGuid>
     <DockerLaunchBrowser>True</DockerLaunchBrowser>
-    <DockerServiceUrl>http://localhost:{ServicePort}/api/values</DockerServiceUrl>
+    <DockerServiceUrl>http://localhost:5000/api/values</DockerServiceUrl>
     <DockerServiceName>webapp</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
